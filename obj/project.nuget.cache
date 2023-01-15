@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "og51+NtLpelQEJolb+FqN7DYyjhe74UkZklG/UaXksjAOR4Loy2PwMufQW0rgMnRMQ/BN5+3Pp/Z8jQDDCaLUQ==",
+  "success": true,
+  "projectFilePath": "/Users/jimhurd/dev/asi/gh/gh.csproj",
+  "expectedPackageFiles": [
+    "/Users/jimhurd/.nuget/packages/gherkin/26.0.3/gherkin.26.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

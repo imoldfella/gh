@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Gherkin/26.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Gherkin.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Gherkin.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gherkin/26.0.3": {
+      "sha512": "MxHVTyfRMYUOPCvyLwpmlmcU8NZM+mjS0f3HFJTbUvDztO/ey+m1r8wrRsfRIdY4RRaFrgfMhps5aYyVT5jXog==",
+      "type": "package",
+      "path": "gherkin/26.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cucumber-mark-green-128.png",
+        "gherkin.26.0.3.nupkg.sha512",
+        "gherkin.nuspec",
+        "lib/net462/Gherkin.dll",
+        "lib/net462/Gherkin.xml",
+        "lib/net6.0/Gherkin.dll",
+        "lib/net6.0/Gherkin.xml",
+        "lib/netstandard2.0/Gherkin.dll",
+        "lib/netstandard2.0/Gherkin.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Gherkin >= 26.0.3"
+    ]
+  },
+  "packageFolders": {
+    "/Users/jimhurd/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/jimhurd/dev/asi/gh/gh.csproj",
+      "projectName": "gh",
+      "projectPath": "/Users/jimhurd/dev/asi/gh/gh.csproj",
+      "packagesPath": "/Users/jimhurd/.nuget/packages/",
+      "outputPath": "/Users/jimhurd/dev/asi/gh/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/jimhurd/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Gherkin": {
+            "target": "Package",
+            "version": "[26.0.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
